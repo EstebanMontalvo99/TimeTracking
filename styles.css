@@ -199,4 +199,17 @@ main {
     color: white;
     margin: auto 2rem;
   }
+  .pic {
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr;
+  }
+  .pic img {
+    width: 30%;
+    margin: auto auto auto 4rem;
+  }
+  .repo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }
